@@ -6,80 +6,96 @@
     <title>Data Diri | Tugas Arkatama</title>
   </head>
   <body>
-    <header>
+    <form>
+      <label for="name"> Nama</label>
+      <br />
+      <input
+        type="text"
+        id="name"
+        name="nama"
+        placeholder="Nama Lengkap"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="email"> Email</label>
+      <br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email Aktif"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="nohp"> No.Hp</label>
+      <br />
+      <input
+        type="tel"
+        id="nohp"
+        name="nohp"
+        placeholder="No. Hp aktif"
+        required
+      />
+      <br />
+      <br />
+
+      <label for="jk"> Jenis Kelamin</label>
+      <br />
+      <input type="radio" id="jk" name="jenik kelamin" required /> Laki-laki
+      <br />
+      <input type="radio" id="jk" name="jenik kelamin" required /> Perempuan
+      <br />
+      <br />
+
+      <label for="prodi"> Prodi</label>
+      <br />
+      <select id="prodi" name="prodi">
+        <option>Pilih</option>
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        <option value="Sistem Komputer">Sistem Komputer</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="hobi"> Hobi</label>
+      <br />
+      <input type="checkbox" id="hobi" name="hobi" /> Membaca
+      <br />
+      <input type="checkbox" id="hobi" name="hobi" /> Menulis
+      <br />
+      <input type="checkbox" id="hobi" name="hobi" /> Menyanyi
+      <br />
+      <input type="checkbox" id="hobi" name="hobi" /> Olahraga <br />
+      <br />
+
+      <label for="alamat"> Alamat</label>
+      <br />
+      <textarea
+        id="alamat"
+        name="alamat"
+        placeholder="Alamat Lengkap"
+        required
+      ></textarea>
+      <br />
+      <br />
+
+      <label for="foto"> Foto Diri</label>
+      <br />
+      <input type="file" id="foto" name="fotodiri" />
+      <br />
+
+      <button onclick="#">Daftar</button>
+      <br />
+      <br />
       <div>
-        <label for="nama"> Nama</label>
-        <br />
-        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" />
-        <br />
-        <br />
-
-        <label for="email"> Email</label>
-        <br />
-        <input type="email" id="email" name="email" placeholder="Email Aktif" />
-        <br />
-        <br />
-
-        <label for="nohp"> No HP</label>
-        <br />
-        <input type="tel" id="nohp" name="nohp" placeholder="No. HP aktif" />
-        <br />
-        <br />
-
-        <label for="jk"> Jenis Kelamin</label>
-        <br />
-        <input type="radio" id="jk" name="jeniskelamin" />Laki-laki
-        <br />
-        <input type="radio" id="jk" name="jeniskelamin" />Perempuan
-        <br />
-        <br />
-
-        <label for="prodi" name="prodi">Prodi</label>
-        <br />
-        <select>
-          <option>Pilih</option>
-          <option value="Teknik Informatika">Teknik Informatika</option>
-          <option value="Sistem Informasi">Sistem Informasi</option>
-          <option value="Sistem Komputer">Sistem Komputer</option>
-        </select>
-        <br />
-        <br />
-
-        <label for="hobi"> Hobi</label>
-        <br />
-        <input type="checkbox" id="hobi" name="hobi" />Membaca
-        <br />
-        <input type="checkbox" id="hobi" name="hobi" />Menulis
-        <br />
-        <input type="checkbox" id="hobi" name="hobi" />Menyanyi
-        <br />
-        <input type="checkbox" id="hobi" name="hobi" />Olahraga
-        <br />
-        <br />
-
-        <label for="alamat"> Alamat</label>
-        <br />
-        <textarea
-          id="alamat"
-          name="alamat"
-          placeholder="Alamat Lengkap"
-        ></textarea>
-        <br />
-        <br />
-
-        <label for="fotodiri"> Foto Diri</label>
-        <br />
-        <input type="file" id="fotodiri" name="fotodiri" />
-        <br />
-
-        <button type="submit">Daftar</button>
-        <br />
-        <br />
-        <div>
-          untuk kembali ke index.html, silahkan
-          <a href="index.html"> KLIK DISINI</a>
-        </div>
+        untuk kembali ke index.html, silahkan
+        <a href="index.html"> KLIK DISINI</a>
       </div>
-    </header>
+    </form>
   </body>
 </html>
