@@ -1,0 +1,30 @@
+h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 300px 400px;
+  padding-top: 0%;
+}
+
+.card {
+  border: 2px solid black;
+  width: 15rem;
+  margin: 10px;
+}
+
+.card img {
+  width: 15rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+footer {
+  border: 2px solid black;
+  text-align: center;
+}
